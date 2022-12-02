@@ -1,3 +1,5 @@
+#Not yet actually working in one pass
+
 with open("./Day1/input.txt") as f:
     data = f.read()
 
