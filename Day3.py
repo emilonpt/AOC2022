@@ -27,8 +27,3 @@ common_letters_g3 = [find_common_letters(group) for group in groups_of_3]
 common_letters_g3_priorities = [PRIORITIES[c] for c in common_letters_g3]
 
 print(sum(common_letters_g3_priorities))
-
-
-
-
-
