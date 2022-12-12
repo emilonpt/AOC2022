@@ -79,9 +79,9 @@ def process_rounds(num_rounds):
         for i in range(len(MONKEY_LIST)):
             MONKEY_LIST[i].inspect_items()
         #print("Finished round {}.".format(n))
-        if n in [1,20,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000]:
-            inspected_nums = get_num_inspected_items()
-            print("The top 2 monkeys have inspected {} and {} items.".format(sorted(inspected_nums.values())[-1], sorted(inspected_nums.values())[-2]))
+        #if n in [1,20,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000]:
+            #inspected_nums = get_num_inspected_items()
+            #print("The top 2 monkeys have inspected {} and {} items.".format(sorted(inspected_nums.values())[-1], sorted(inspected_nums.values())[-2]))
 def get_num_inspected_items():
     return {monkey.id: monkey.num_inspected_items for monkey in MONKEY_LIST}
 

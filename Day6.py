@@ -2,7 +2,7 @@ from aoc22_utils import read_input_file_without_trailing_newlines
 
 day_6_input = read_input_file_without_trailing_newlines(6)
 
-print(day_6_input)
+#print(day_6_input)
 
 def find_signals(transmission,length):
     transmission = transmission[0]
